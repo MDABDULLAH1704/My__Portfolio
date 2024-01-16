@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my Portfolio">
+    <title>My Portfolio</title>
+    <!-- logo -->
+    <link rel="shortcut icon" type="x-icon" href="pf.png">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- box icon from Boxicons   &  use scroll from scrollreveal -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">
+            <h2>Portfolio</h2>
+        </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <a><button id="navbar-button" onclick="myFunction()"><i class='bx bxs-moon'
+                        style='color:#252323'></i></button></a>
+        </nav>
+    </header>
+
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Md Abdullah</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>This is my Portfolio website to shows all details, works and skills.</p>
+        </div>
+
+        <div class="home-image">
+            <img src="image1.png" alt="">
+        </div>
+
+    </section>
+
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image2.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading about_heading">About <span>Me</span></h2>
+            <h3>Developer!</h3>
+            <p>As a developer, I leverage my proficiency in HTML, CSS, and JavaScript for dynamic frontend
+                designs. In the backend, I excel in Node.js, ensuring server-side efficiency. MongoDB serves as my
+                preferred database for seamless data management. With a commitment to creating responsive and scalable
+                applications, I specialize in delivering end-to-end solutions that prioritize user experience and
+                performance. Explore my portfolio for a showcase of my versatile skills and successful projects.</p>
+        </div>
+    </section>
+
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading services_heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-laptop'></i>
+                <h3>Web Development</h3>
+                <p>Passionate web developer skilled in frontend and backend technologies. Proficient in HTML, CSS,
+                    JavaScript, and various frameworks. Committed to creating responsive, user-centric, and scalable web
+                    solutions.</p>
+
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Development</h3>
+                <p>As a frontend developer, I specialize in crafting visually stunning and user-friendly interfaces.
+                    Proficient in HTML, CSS, and JavaScript, I bring creativity and technical expertise to enhance the
+                    overall user experience.</p>
+
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Backend Development</h3>
+                <p>Backend developer in Node.js and MongoDB, proficient in designing and implementing robust server-side
+                    solutions, ensuring seamless data management and optimal performance.</p>
+
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading portfolio_heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>ExploreTheBest10</h4>
+                    <p>A curated platform recommending top 10 choices across diverse categories for informed decisions.
+                    </p>
+                    <a href="https://mdabdullah1704.github.io/Explore-The-Best_10" target="_main"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>WorldOfQuote</h4>
+                    <p>Showcasing a collection of inspirational quotes to inspire, motivate, and enrich users globally.
+                    </p>
+                    <a href="https://mdabdullah1704.github.io/World-Of-Quote/" target="_main"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Random Joke</h4>
+                    <p>Delivers spontaneous laughter with a variety of humor, offering amusement for diverse tastes.</p>
+                    <a href="https://mdabdullah1704.github.io/Random-Joke/" target="_main"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Quote Of The Day</h4>
+                    <p>Daily doses of inspiration, wisdom, and reflection to uplift and motivate.</p>
+                    <a href="https://mdabdullah1704.github.io/Quote-Generator/" target="_main"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>My Dictionary</h4>
+                    <p>An online resource offering definitions, translations, and insights for enhancing language
+                        comprehension</p>
+                    <a href="https://mdabdullah1704.github.io/Dictionary-WebApp/" target="_main"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>A digital tool for performing arithmetic, scientific calculations, and solving mathematical
+                        problems efficiently online.</p>
+                    <a href="https://mdabdullah1704.github.io/Calculator-Update/" target="_main"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Car Racing Game</h4>
+                    <p>Enjoy hands-free excitement with auto-driven features, thrilling races, and immersive gameplay
+                    </p>
+                    <a href="https://mdabdullah1704.github.io/Car-Game/" target="_main"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>To-Do List</h4>
+                    <p>Organize tasks, set priorities, and manage productivity with a user-friendly, efficient digital
+                        task planner.</p>
+                    <a href="https://mdabdullah1704.github.io/ToDoApp/" target="_main"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Text To Speech Converter</h4>
+                    <p> Transform written text into spoken words with ease for enhanced accessibility.</p>
+                    <a href="https://mdabdullah1704.github.io/TextToSpeech/" target="_main"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+
+        <h2 class="heading contact_heading">Contact <span>Me!</span></h2>
+
+        <img class="img" src="email.png" alt="Email">
+
+        <h2 class="email">mdabdullahqais123@gmail.com</h2>
+
+    </section>
+
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <P>Copyright &copy; 2024 | All Rights Reserved.</P>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Link Script.js -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
