@@ -50,7 +50,7 @@ window.onscroll = () => {
 // scroll reveal
 ScrollReveal({
     reset: true,          // this line can be comment if u want
-    distance: '80px',
+    distance: '150px',
     duration: 2000,
     delay: 200
 });
@@ -64,7 +64,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 // Typed JS
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developer', 'Frontend Developer', 'Backend Developer'],
+    strings: ['Web Developer', 'Frontend Developer'],
     typeSpeed: 80,
     backSpeed: 30,
     backDelay: 500,
