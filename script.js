@@ -50,8 +50,8 @@ window.onscroll = () => {
 // scroll reveal
 ScrollReveal({
     reset: true,          // this line can be comment if u want
-    distance: '150px',
-    duration: 2000,
+    distance: '100px',
+    duration: 1500,
     delay: 200
 });
 
